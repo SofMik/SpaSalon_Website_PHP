@@ -1,0 +1,206 @@
+body {
+    margin: 0 auto;
+}
+
+/*main web*/
+.web {
+	min-width: 900px;
+    max-width: 1280px;
+    font-size: 1.4em;
+	margin: 10px auto;
+}
+
+.nav {
+    border: 1px solid  rgb(38, 38, 38);
+	background-color:rgb(159 162 184);
+    justify-content:space-around;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.link{
+    position: relative;
+	background-color: #a3a3a3;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 5px;;
+}
+
+#mylink{
+    background-color:#fed57d;
+}
+
+a{
+	text-decoration:none;
+    color: #20201f; 
+    font-size: 1.3em;
+}
+
+.fotos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}   
+
+.foto-link {
+   
+    color: #2B7DED;
+    
+    text-decoration: none;
+} 
+
+img {
+    border: 3px solid  grey;
+    margin: 10px;
+} 
+
+.singin{
+    text-align: right;
+    margin-right: 10px;
+    text-decoration: underline;
+    color:black;
+}
+
+.header {
+    border: 1px solid  grey;
+    background: url("foto/foto7.jpg") no-repeat;
+    text-align: center;
+	padding:20px;
+    margin: 5px 0;
+	font-size: 2.8em;
+    color: #f7f7f7;
+    font-style: italic;
+}
+
+.otsikko {
+    background-color:  #4b38179e;
+}
+
+#personal {
+    background-color:  #5578d457;
+    border: 1px solid  grey;
+}
+
+#number {
+    width: 238px;
+    padding: 12px 15px;
+    border: 1px solid rgb(33, 33, 33);
+    font-family: inherit;
+    text-align: center;
+    color: #a09048;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: #e4e6f1;
+}
+
+.main {
+    margin: 5px 0;
+    border: 1px solid  grey;
+    min-height: 20px;
+	background-color:  #e4e6f1;
+    padding: 0 20px;
+}
+
+h3 {
+    font-style: italic;
+}
+
+span{
+    font-style: italic;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.3em;
+    color: #a09048;
+    font-style: italic;
+    font-weight: bold;
+   
+    text-align: center;
+    padding: 2px 0;
+    margin: 10px 200px;
+}
+
+#contactus {
+    text-align: center;
+  
+}
+
+li {
+    list-style-type: square;
+}
+
+.footer {
+    border: 1px solid  grey;
+    margin-top: 5px;
+    background: url("foto/foto_main.jpg") no-repeat;
+    text-align: center;
+    color: #ffe56d; 
+
+}
+
+/*sing in*/
+.myweb {
+    margin: 0 auto;
+    width: 1280px;
+    height: 800px;
+    margin-top: 2px;
+    background: url("foto/foto_my.jpg") no-repeat;
+    text-align: center;
+    position: relative;
+}
+
+.header1 {
+    text-align: left;
+	padding:15px;
+	font-size: 2.8em;
+    color: #f7f7f7;
+    font-style: italic;
+}
+
+.otsikko1 {
+    background-color:  #2e281e8c;
+    text-align: left;	
+}
+
+.otsikko2 {
+    background-color:  #2e281e8c;
+    text-align: right;	
+}
+
+.box {
+    position: absolute;
+    display: block;
+    margin: 40px 290px 0;
+    padding: 50px 50px;
+    width: 600px;
+    height: 450px;
+    border: 2px solid  rgb(184, 183, 183);
+    box-shadow: 0 0 0 3px rgb(121, 119, 119);
+    font-size: 2.2em;
+    text-align: center;
+    color: #fffef9; 
+    background-color: rgb(34 34 35 / 45%);
+}
+
+.input{
+    width: 238px;
+    padding: 12px 15px;
+    border: 1px solid rgb(33, 33, 33);
+    font-family: inherit;
+    color: #a09048;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 0.6em;
+    background-color: #e4e6f1;
+}
+
+.input:focus {
+    outline: 0;
+    border-color: #5900d5;
+}
+
